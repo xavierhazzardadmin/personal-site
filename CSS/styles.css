@@ -1,0 +1,65 @@
+/* Images being polished */
+
+.avatar {
+  display: block;
+  margin-top: 220px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 20%;
+  width: 20%;
+}
+
+/* No implementation yet */
+.signature{
+text-align: center;
+font-family: 'romatehood-p73ed-webfont';
+}
+
+/* Setting up first skill: Design - Adjustments in Screen */
+.skill-row
+{
+  width: 50%;
+  margin: auto;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* Image of design */
+.webdev{
+  height: 15%;
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+}
+
+/* Setting up second skill: Development - Adjustments in Screen */
+
+.skill-row2{
+  width: 50%;
+  margin: auto;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* Image of developing */
+.coding{
+  height: 15%;
+  width: 15%;
+  float: right;
+}
+
+
+
+/* Fonts */
+.middle-container{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+h2{
+  font-family: 'Quando', serif;
+}
+
+h3{
+  font-family: 'Quando', serif;
+}
