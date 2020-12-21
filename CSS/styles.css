@@ -1,83 +1,94 @@
 /* Images being polished */
 
 .avatar {
-  display: block;
-  margin-top: 220px;
-  margin-left: auto;
-  margin-right: auto;
-  height: 100%;
-  width: 100%;
+	display: block;
+	margin-top: 220px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+	width: 100%;
+}
+
+@media screen and (min-width: 1000px) {
+	.avatar {
+		display: block;
+		margin-top: 6rem;
+		margin-left: auto;
+		margin-right: auto;
+		height: 20%;
+		width: 20%;
+	}
 }
 
 /* No implementation yet */
 .signature {
-  text-align: center;
-  font-family: "romatehood-p73ed-webfont";
+	text-align: center;
+	font-family: "romatehood-p73ed-webfont";
 }
 
 /* Setting up first skill: Design - Adjustments in Screen */
 .skill-row {
-  width: 50%;
-  margin: auto;
-  text-align: justify;
-  text-justify: inter-word;
+	width: 50%;
+	margin: auto;
+	text-align: justify;
+	text-justify: inter-word;
 }
 
 /* Image of design */
 .webdev {
-  /* height: 100%; */
-  width: 100%;
-  /* float: left; */
-  /* margin-left: 30px; */
+	/* height: 100%; */
+	width: 100%;
+	/* float: left; */
+	/* margin-left: 30px; */
 }
 
 /* Setting up second skill: Development - Adjustments in Screen */
 
 .skill-row2 {
-  width: 50%;
-  margin: 0 auto;
-  text-align: justify;
-  text-justify: inter-word;
+	width: 50%;
+	margin: 0 auto;
+	text-align: justify;
+	text-justify: inter-word;
 }
 
 /* Image of developing */
 .coding {
-  /* height: 15%; */
-  width: 100%;
-  /* float: right; */
+	/* height: 15%; */
+	width: 100%;
+	/* float: right; */
 }
 
 /* Fonts */
 .middle-container {
-  text-align: center;
-  font-family: "Roboto", sans-serif;
+	text-align: center;
+	font-family: "Roboto", sans-serif;
 }
 
 h2 {
-  font-family: "Quando", serif;
+	font-family: "Quando", serif;
 }
 
 h3 {
-  margin-top: 0;
-  font-family: "Quando", serif;
+	margin-top: 0;
+	font-family: "Quando", serif;
 }
 
 .design-row {
-  display: flex;
+	display: flex;
 }
 
 .design-img {
-  width: 18%;
-  /* text-align: end; */
-  margin-right: 2%;
+	width: 18%;
+	/* text-align: end; */
+	margin-right: 2%;
 }
 
 .coding-row {
-  display: flex;
+	display: flex;
 }
 
 .develop-img {
-  width: 25%;
-  margin-left: 2%;
-  height: 100%;
+	width: 25%;
+	margin-left: 2%;
+	height: 100%;
 }
